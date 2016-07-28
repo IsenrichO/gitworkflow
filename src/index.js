@@ -15,6 +15,7 @@ render(
   <Provider store={store}>
     <Router history={browserHistory}>
       <Route path="/" component={App}/>
+      <p> HI GUYYYSSSSSSS</p>
     </Router>
   </Provider>,
   document.getElementById('root')
